@@ -88,10 +88,10 @@ nav ul a {
 
 .Flower-Card{
     display: grid;
-    grid-template-columns: repeat(4,270px);
+    grid-template-columns: repeat(4,1fr);
     gap: 30px 120px;
-    max-width: 1440px;
-    margin: 0 auto;
+    
+   
     
 }
 
@@ -124,6 +124,36 @@ nav ul a {
    background-color: #E95A08;
    border: none;
 }
+
+/* Flower Lover Section */
+.Flower-Lover-Section{
+    display: flex;
+    margin: 250px 0;
+}
+
+.Flower-Lover-Text{
+    margin-left: 100px;
+}
+.Flower-Lover-Title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.Flower-Lover-Description{
+    font-size: 1.5rem;
+    margin-top: -30px;
+
+    
+}
+.Badge{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    left: 600px;
+    top: 2250px;
+}
+
+
 
 /*(small Device Start) */
 
@@ -206,6 +236,7 @@ nav ul a {
     max-width: 350px;
     margin: 0 auto;
     
+    
 }
 
 
@@ -239,6 +270,35 @@ text-align: center;
    border: none;
    margin: 0 auto;
 }
+/* Flower Lover Section */
+.Flower-Lover-Section{
+    display: block;
+}
+.Flower-Lover-Image{
+    max-width: 95%;
+    margin: -200px auto 0;
+    
+}
+.Flower-Lover-Title{
+    font-size: 1.5rem;
+    font-weight:bold ;
+    margin-left: 15px;
+}
+.Flower-Lover-Description{
+    font-size: 1.1rem;
+    margin-top: 0px;
+}
+.Flower-Lover-Text{
+
+    max-width: 360px;
+    margin: 0 auto;
+}
+.Badge{
+    display: none;
+}
+
+
+
     /* Small device End */
 
 
@@ -250,6 +310,8 @@ body {
 }
 
 main {
+    max-width: 1440px;
+    margin: 0 auto;
     margin-top: 150px;
 }
 
