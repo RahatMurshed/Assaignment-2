@@ -86,66 +86,72 @@ nav ul a {
     margin: -45px auto 50px;
 }
 
-.Flower-Card{
+.Flower-Card {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px 120px;
-    
-   
-    
+
+
+
 }
 
-.Product-Image{
+.Product-Image {
     width: 100%;
 }
-.Product-Name{
+
+.Product-Name {
     font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
-    
+
     margin: 0;
-    
+
 }
-.Product-Price{
+
+.Product-Price {
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
 
     margin-top: 10px;
-   
+
 
 }
-.Primary-Button{
-   width: 265px;
-   height: 50px;
-   font-size: 1.1rem;
-   font-weight: 600;
-   color: white;
-   background-color: #E95A08;
-   border: none;
+
+.Primary-Button {
+    width: 265px;
+    height: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #E95A08;
+    border: none;
 }
 
 /* Flower Lover Section */
-.Flower-Lover-Section{
+.Flower-Lover-Section {
     display: flex;
     margin: 250px 0;
 }
 
-.Flower-Lover-Text{
+.Flower-Lover-Text {
     margin-left: 100px;
 }
-.Flower-Lover-Title{
+
+.Flower-Lover-Title {
     font-size: 4rem;
     font-weight: bold;
     margin-left: 15px;
 }
-.Flower-Lover-Description{
+
+.Flower-Lover-Description {
     font-size: 1.5rem;
     margin-top: -30px;
 
-    
+
 }
-.Badge{
+
+.Badge {
     width: 320px;
     height: 320px;
     position: absolute;
@@ -154,56 +160,61 @@ nav ul a {
 }
 
 /* Latest Deal Secttion */
-.Latest-Deal{
+.Latest-Deal {
     max-width: 1440px;
     margin: 0 auto;
 }
-.Latest-Deal-Text{
+
+.Latest-Deal-Text {
     max-width: 888px;
     margin: 0 auto;
     text-align: center;
 }
-.Latest-Deal-Title{
+
+.Latest-Deal-Title {
     font-size: 3.5rem;
-    
-    
+
+
 }
-.Latest-Deal-Subtitle{
+
+.Latest-Deal-Subtitle {
     font-size: 1.375rem;
     margin: -35px 0 80px;
-    
+
 }
-.Latest-Deal-Offers{
+
+.Latest-Deal-Offers {
     max-width: 1440px;
     margin: 0 auto 120px;
     display: grid;
-    grid-template-areas: 
-    "Bloom  Zabo"
-    " Ana   Zabo";
-    gap: 20px ;
+    grid-template-areas:
+        "Bloom  Zabo"
+        " Ana   Zabo";
+    gap: 20px;
     row-gap: 20;
-    
-    
+
+
 }
 
-.Bloom-Plant{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5)), url(../assets/deal-bloom.png);
+.Bloom-Plant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../assets/deal-bloom.png);
     background-size: cover;
     width: 466px;
     max-height: 220px;
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
-   text-align: center;
-     grid-area: Bloom;
-     border-radius: 20px;
-     padding: 50px 0 0;
-     
-   
-    
+    text-align: center;
+    grid-area: Bloom;
+    border-radius: 20px;
+    padding: 50px 0 0;
+
+
+
 }
-.Ana-Plant{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5)), url(../assets/deal-ana.png);
+
+.Ana-Plant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../assets/deal-ana.png);
     background-size: cover;
     width: 467px;
     max-height: 220px;
@@ -211,48 +222,52 @@ nav ul a {
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
-     grid-area: Ana;
-     border-radius: 20px;
-     padding: 50px 0 0;
-   
-   
+    grid-area: Ana;
+    border-radius: 20px;
+    padding: 50px 0 0;
+
+
 }
-.Zabo-Plan{
+
+.Zabo-Plan {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../assets/deal-zabo.png);
     background-size: cover;
-     width: 990px;
-    height: 380px ;
+    width: 990px;
+    height: 380px;
     color: white;
     font-size: 3rem;
     font-weight: bold;
-   text-align: center;
+    text-align: center;
     grid-area: Zabo;
-      border-radius: 20px;
-      padding: 150px 0 0;
-      margin: 0;
-      
-      
-      
-    
-    
+    border-radius: 20px;
+    padding: 150px 0 0;
+    margin: 0;
+
+
+
+
+
 }
-.Shop-now{
+
+.Shop-now {
     display: block;
-    margin-top:-20px;
+    margin-top: -20px;
     font-weight: 500;
     font-size: 1.3rem;
+    color: white;
 }
-.Shop-Now{
+
+.Shop-Now {
     display: block;
     margin-top: -60px;
-    
+    color: white;
     font-weight: 500;
     font-size: 2rem;
-    
+
 }
 
 /* Call To Action Section */
-.call-to-Action{
+.call-to-Action {
     margin: 0 500px 0 00px;
     height: 533px;
     background-image: url(../assets/news-letter-bg.png);
@@ -261,26 +276,30 @@ nav ul a {
     width: 100%;
 
 }
-.Call-to-Action-Title{
+
+.Call-to-Action-Title {
     font-size: 3.125rem;
     font-weight: bold;
     color: white;
     text-align: center;
     padding: 220px 0 0;
 }
-.input{
+
+.input {
     width: 650px;
     height: 42px;
-    margin:0 auto;
+    margin: 0 auto;
     border: none;
 }
-.Newslatter-Form{
+
+.Newslatter-Form {
     max-width: 850px;
     margin: -23px auto 0;
     display: flex;
     align-items: center;
 }
-.Call-to-Action-Button{
+
+.Call-to-Action-Button {
     width: 180px;
     height: 48px;
     margin-left: -15px;
@@ -288,12 +307,59 @@ nav ul a {
     background-color: #E95A08;
     color: white;
     font-size: 1.01rem;
-    
-}
-::placeholder{
-    padding:15px;
+
 }
 
+::placeholder {
+    padding: 15px;
+}
+
+/* Footer Section */
+.Footer {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 390px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Footer-Description {
+    font-size: 1.37rem;
+    max-width: 350px;
+
+}
+
+ul {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.Footer-Menu-Item1,
+.Footer-Menu-Item2 {
+    font-size: 1.1rem;
+}
+
+.item {
+    display: block;
+    margin-bottom: 28px;
+    text-decoration: none;
+}
+
+.Footer-Icon {
+    display: flex;
+    align-items: center;
+    margin-top: -190px;
+    width: 220px;
+}
+.Icon:hover{
+    filter: grayscale(100%);
+}
+
+.Icon {
+    margin-right: 30px;
+}
 
 
 
@@ -372,147 +438,209 @@ nav ul a {
 
 
     }
-    .Flower-Card{
-    display: grid;
-    grid-template-columns: repeat(2,170px);
-    gap: 30px 5px;
-    max-width: 350px;
-    margin: 0 auto;
-    
-    
-}
+
+    .Flower-Card {
+        display: grid;
+        grid-template-columns: repeat(2, 170px);
+        gap: 30px 5px;
+        max-width: 350px;
+        margin: 0 auto;
 
 
-.Product-Image{
-    width: 100%;
-}
-.Product-Name{
-    font-size: 1.1rem;
-    font-weight: 500;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    
-}
-.Product-Price{
-    font-size: 1.1rem;
-    font-weight: bold;
-    
-text-align: center;
-    margin-top: 10px;
-   
-
-}
-.Primary-Button{
-   width: 10.5rem;
-   height: 50px;
-   font-size: 1.1rem;
-   font-weight: 600;
-   color: white;
-   background-color: #E95A08;
-   border: none;
-   margin: 0 auto;
-}
-/* Flower Lover Section */
-.Flower-Lover-Section{
-    display: block;
-}
-.Flower-Lover-Image{
-    max-width: 95%;
-    margin: -200px auto 0;
-    
-}
-.Flower-Lover-Title{
-    font-size: 1.5rem;
-    font-weight:bold ;
-    margin-left: 15px;
-}
-.Flower-Lover-Description{
-    font-size: 1.1rem;
-    margin: 0;
-    
-}
-.Flower-Lover-Text{
-    
-    max-width: 360px;
-    margin: 0 auto;
-}
-.Badge{
-    display: none;
-}
-/* Latest deal section */
-.Latest-Deal-Offers{
-    display: block;
-    max-width:360px ;
-    margin: 0 auto;
-}
-.Latest-Deal-Title{
-    font-size: 1.8rem;
-    margin-top:-120px;
-}
-.Latest-Deal-Subtitle{
-    font-size: 0.875rem;
-    margin: 10px 0 50px;
-}
-.Bloom-Plant{
-    max-width: 360px;
-    height: 192px;
-    margin: 0 auto 10px;
-    
-}
-.Ana-Plant{
-     max-width: 360px;
-    height: 192px;
-    margin: 0 auto 10px;
-}
-.Zabo-Plan{
-     max-width: 360px;
-    height: 180px;
-    margin: 0 auto 40px;
-    font-size: 1.5rem;
-    padding: 50px 0 0;
-}
-.Shop-Now{
-       margin-top:-20px;
-    font-size: 1.3rem;
-}
-
-/* Call To Action Section */
- .call-to-Action{
-    margin: 0 500px 0 0px;
-    height: 220px;
-
-} 
-.Call-to-Action-Title{
-    font-size: 1.5rem;
-    padding: 50px 0 0;
-}
-.input{
-    width: 218px;
-    height: 42px;
-    border: none;
-   
-}
-.Newslatter-Form{
-    max-width: 300px;
-    margin: 20px auto 0;
-    
-}
-.Call-to-Action-Button{
-    width: 103px;
-    height: 44px;
-    margin-left: -30px;
-    
-    
-}
+    }
 
 
+    .Product-Image {
+        width: 100%;
+    }
+
+    .Product-Name {
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .Product-Price {
+        font-size: 1.1rem;
+        font-weight: bold;
+
+        text-align: center;
+        margin-top: 10px;
 
 
-    /* Small device End */
+    }
+
+    .Primary-Button {
+        width: 10.5rem;
+        height: 50px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: white;
+        background-color: #E95A08;
+        border: none;
+        margin: 0 auto;
+    }
+
+    /* Flower Lover Section */
+    .Flower-Lover-Section {
+        display: block;
+    }
+
+    .Flower-Lover-Image {
+        max-width: 95%;
+        margin: -200px auto 0;
+
+    }
+
+    .Flower-Lover-Title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-left: 15px;
+    }
+
+    .Flower-Lover-Description {
+        font-size: 1.1rem;
+        margin: 0;
+
+    }
+
+    .Flower-Lover-Text {
+
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .Badge {
+        display: none;
+    }
+
+    /* Latest deal section */
+    .Latest-Deal-Offers {
+        display: block;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .Latest-Deal-Title {
+        font-size: 1.8rem;
+        margin-top: -120px;
+    }
+
+    .Latest-Deal-Subtitle {
+        font-size: 0.875rem;
+        margin: 10px 0 50px;
+    }
+
+    .Bloom-Plant {
+        max-width: 360px;
+        height: 192px;
+        margin: 0 auto 10px;
+
+    }
+
+    .Ana-Plant {
+        max-width: 360px;
+        height: 192px;
+        margin: 0 auto 10px;
+    }
+
+    .Zabo-Plan {
+        max-width: 360px;
+        height: 180px;
+        margin: 0 auto 40px;
+        font-size: 1.5rem;
+        padding: 50px 0 0;
+    }
+
+    .Shop-Now {
+        margin-top: -20px;
+        font-size: 1.3rem;
+    }
+
+    /* Call To Action Section */
+    .call-to-Action {
+        margin: 0 500px 0 0px;
+        height: 220px;
+
+    }
+
+    .Call-to-Action-Title {
+        font-size: 1.5rem;
+        padding: 50px 0 0;
+    }
+
+    .input {
+        width: 218px;
+        height: 42px;
+        border: none;
+
+    }
+
+    .Newslatter-Form {
+        max-width: 300px;
+        margin: 20px auto 0;
+
+    }
+
+    .Call-to-Action-Button {
+        width: 103px;
+        height: 44px;
+        margin-left: -30px;
+
+
+    }
+
+    /* Footer Section */
+    .Footer {
+        display: block;
+        margin: 50px 20px;
+        max-width: 400px;
+        height: 700px;
+    }
+
+    .Footer-Logo {
+        width: 150px;
+        height: 109px;
+    }
+
+    .Footer-Description {
+        font-size: 1rem;
+        width: 390px;
+
+    }
+
+    .Footer-Menu-Item1 {
+        font-size: 1.1rem;
+        margin-top: 70px;
+    }
+
+    .Footer-Icon {
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+        width: 180px;
+        justify-content: space-between;
+    }
+
+    .item {
+        margin-bottom: 28px;
+        margin-left: -500;
+
+    }
+
+    .Icon {
+        margin: 0;
+    }
 
 
 }
+
+/* Small device End */
+
+
 
 /* Shared Style */
 body {
@@ -524,6 +652,14 @@ main {
     max-width: 1440px;
     margin: 0 auto;
     margin-top: 150px;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+button:hover{
+    background-color: #cf4c00;
 }
 
 
@@ -559,5 +695,5 @@ main {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    
+
 }
