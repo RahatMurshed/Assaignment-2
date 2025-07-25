@@ -28,7 +28,27 @@ nav ul a {
 
 .Home {
     font-weight: bold;
-
+    
+}
+.Home:hover{
+    color: #E95A08;
+    border-bottom: 2px solid #E95A08;
+    padding-bottom: 4px;
+}
+.Shop:hover{
+    color: #E95A08;
+    border-bottom: 2px solid #E95A08;
+    padding-bottom: 4px;
+}
+.About-us:hover{
+    color: #E95A08;
+    border-bottom: 2px solid #E95A08;
+    padding-bottom: 4px;
+}
+.Cart:hover{
+    color: #E95A08;
+    border-bottom: 2px solid #E95A08;
+    padding-bottom: 4px;
 }
 
 /* Banner Style */
